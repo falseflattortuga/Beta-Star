@@ -3,7 +3,7 @@
 #
 # PURPOSE OF THIS SCRIPT
 # This script produces random rotation matrices, "Q.new", via QR decomposition.
-# These "Q.new" matrices are uniformely distributed with the Haar measure in O(n).
+# These "Q.new" matrices are uniformly distributed with the Haar measure in O(n).
 # They will have determinant = -1 with probability 0.5. If rejection sampling is
 # applied to exclude "Q.new" matrices with determinant -1 and accept only those
 # with determinant 1, then the selected "Q.new" matrices will be SO(n) with a
